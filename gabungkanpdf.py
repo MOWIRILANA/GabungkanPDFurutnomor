@@ -24,8 +24,8 @@ def merge_pdfs(input_folder, output_pdf):
     print(f"Gabungan PDF tersimpan sebagai: {output_pdf}")
 
 # Ganti 'pdf_folder' dengan path folder tempat menyimpan file PDF
-pdf_folder = "C:/Mowi/Bimbingan/Daftar Sidang/PisahDokumen"  # Ubah sesuai lokasi folder 
-output_file = "C:/Mowi/Bimbingan/Daftar Sidang/PisahDokumen/output_merged.pdf"  # Nama file output
+pdf_folder = "C:/lokasifolderpdfyangterpisah"  # Ubah sesuai lokasi folder 
+output_file = "C:/simpanfilehasilgabungpdf.pdf"  # Nama file output
 
 merge_pdfs(pdf_folder, output_file)
 
